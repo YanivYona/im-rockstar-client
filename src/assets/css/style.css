@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap');
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .alignleft {
     float: left;
     margin-right: 15px;
@@ -262,6 +266,16 @@ a:hover {
     transition: .3s;
     animation: .9s infinite scroll;
     position: relative
+}
+
+.hero-arrow-scroll-down {
+    transition: .3s;
+    animation: .9s infinite scroll;
+    position: relative
+}
+
+.hero-arrow-scroll-down img {
+    
 }
 
 @keyframes scroll {
